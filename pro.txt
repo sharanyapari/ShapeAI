@@ -1,0 +1,18 @@
+import os.path
+save_path = 'C:/example/'
+
+name_of_file = input("What is the name of the file: ")
+
+completeName = os.path.join(save_path, name_of_file+".txt")         
+
+file1 = open(completeName, "w")
+
+file1.write(temp_city +
+weather_desc +
+hmdt+
+wind_spd +
+date_time )
+
+
+
+file1.close()
